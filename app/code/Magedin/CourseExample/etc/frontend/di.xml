@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="MagedIn\CourseExample\Controller\Example\Plugintest">
+        <plugin name="course-plugin-one" type="Magedin\CourseExample\Plugin\PluginOne" sortOrder="10" disabled="false"/>
+        <plugin name="course-plugin-two" type="Magedin\CourseExample\Plugin\PluginTwo" sortOrder="20" disabled="false"/>
+    </type>
+</config>
