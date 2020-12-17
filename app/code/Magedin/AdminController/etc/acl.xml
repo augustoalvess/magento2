@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                <resource id="MagedIn_AdminController::menu" sortOrder="10" disabled="false" title="Magenteiro Menu">
+                    <resource id="Magenteiro_AdminController::item" sortOrder="20" disabled="false" title="Magenteiro Item"></resource>
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>
