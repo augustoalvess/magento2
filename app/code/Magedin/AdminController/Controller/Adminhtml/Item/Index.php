@@ -1,11 +1,11 @@
 <?php
 
-namespace MagedIn\PromoTops\Controller\Adminhtml\Item;
+namespace MagedIn\AdminController\Controller\Adminhtml\Item;
 
 use Magento\Backend\App\Action;
 use Magento\Framework\View\Result\PageFactory;
 
-class Index extends \Magento\Framework\App\Action\Action
+class Index extends \Magento\Backend\App\Action
 {
     protected $resultFactory;
 

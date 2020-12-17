@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
         <add id="MagedIn_AdminController::menu" title="Magenteiro Options" module="MagedIn_AdminController" resource="MagedIn_AdminController::menu" sortOrder="10"/>
-        <add id="MagedIn_AdminController::menu" title="Magenteiro Item" module="MagedIn_AdminController" resource="MagedIn_AdminController::item" sortOrder="20" action="magenteiroadmin/item" parent="MagedIn_AdminController::menu"/>
+        <add id="MagedIn_AdminController::item" title="Magenteiro Item" module="MagedIn_AdminController" resource="MagedIn_AdminController::item" sortOrder="20" action="magenteiroadmin/item" parent="MagedIn_AdminController::menu"/>
     </menu>
 </config>
