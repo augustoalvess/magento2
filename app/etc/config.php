@@ -330,6 +330,7 @@ return [
         'Klarna_KpGraphQl' => 1,
         'MagedIn_AdminController' => 1,
         'MagedIn_CourseExample' => 1,
+        'MagedIn_JavaScript' => 1,
         'MagedIn_PromoTops' => 1,
         'PayPal_Braintree' => 1,
         'PayPal_BraintreeGraphQl' => 1,
